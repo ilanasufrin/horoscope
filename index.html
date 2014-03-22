@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zodiac</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-theme.css" rel="stylesheet">
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link href="custom_bootstrap.css" rel="stylesheet">
+
+    
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="container">
+    <div class="jumbotron">
+
+  <h1>Get your horoscope!</h1>
+  
+
+
+<h2>Please enter your birthday below to get tailor-made advice. </h2>
+</div> <!-- end jumbotron -->
+
+<div class="inputDiv">
+<form>
+<p id = "button1" style = "color:white;">Choose your birthday: <input type="text" readonly= "readonly" value= "click here"id="datepicker"></p>
+<p><input id="submitButton"type="button" value="Submit and give me my horoscope!" onclick = processBirthday()></p>
+<!-- will fix inline styles at some point -->
+<hr style = "color:white;"/>
+</form>
+</div> <!-- end input div -->
+
+
+
+
+
+
+
+<div id = "resultsDiv">
+
+</div> <!-- end results div -->
+
+
+
+</div> <!-- end container div -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src = "horoscope.js"></script> 
+    
+  </body>
+</html>
