@@ -1,0 +1,70 @@
+body {
+	background-color: #000025;
+}
+
+
+h1{
+	text-alight:center;
+}
+
+
+.jumbotron {
+background-image:url(http://i.imgur.com/A0A4rME.jpg);
+/*background-repeat:no-repeat;*/
+
+
+}
+
+.jumbotron h1 {
+	color: white;
+	background-color: rgba(0,0,25,.5);
+}
+
+.maincontent {
+	padding:10px;
+
+}
+
+
+li > a {
+
+	color:black;
+}
+
+li > a:visited {
+	color:navy;
+}
+
+li > a:hover {
+	color:darkgreen;
+}
+
+li > a:active {
+	background-color:silver;
+}
+
+.pagepic {
+	float:right;
+	height:230px;
+	padding:10px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+.newBullets{
+
+	list-style-image: none|http://i.imgur.com/2KdZ0nS.png|initial|inherit;
+
+}
+
+
+.allthestuff {
+	margin:auto;
+}
+
+h2 {
+	color: white;
+	background-color: rgba(0,0,25,.5);
+}
