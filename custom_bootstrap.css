@@ -9,9 +9,8 @@ h1{
 
 
 .jumbotron {
-background-image:url(http://i.imgur.com/A0A4rME.jpg);
+background-image:url(http://i.imgur.com/i55N2K0.jpg);
 /*background-repeat:no-repeat;*/
-
 
 }
 
@@ -68,3 +67,22 @@ h2 {
 	color: white;
 	background-color: rgba(0,0,25,.5);
 }
+
+.transformedResults {
+background-color: lightgray;
+color: #000025;
+}
+
+.inputDiv form {
+padding:10px; 
+background-color:#000025;
+}
+
+
+#resultsDiv {
+	height:350px; 
+	padding:5px;
+}
+
+
+
